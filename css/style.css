@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+.item {
+	width: 250px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	transition: width .1s ease;
+}
+
+.item:hover {
+	width: 255px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.item input {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.donate {
+	width: 100%;
+	background-color: #FF4040;
+	font-size: 18px;
+	color: white;
+	border: none;
+	border-bottom: 5px solid #B21616;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.donate:active {
+	border-bottom: 0px;
+	margin-top: 5px;
+}
+
+.bar {
+	width: 100%;
+	height: 5px;
+	background-color: #26ABFF;
+	display: block;
+	margin-bottom: 10px;
+	/*transition: width 1s linear;*/
+}
+
+
+.winner {
+	text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: coral;
+}
