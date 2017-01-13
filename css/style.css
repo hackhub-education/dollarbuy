@@ -2,16 +2,24 @@
 	box-sizing: border-box;
 }
 
+h4 {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .item {
 	width: 250px;
 	border: 1px solid #ccc;
 	padding: 5px;
 	transition: width .1s ease;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
 }
 
-.item:hover {
+/*.item:hover {
 	width: 255px;
-}
+}*/
 
 .item img {
 	width: 100%;
